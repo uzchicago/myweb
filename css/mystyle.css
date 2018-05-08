@@ -58,6 +58,7 @@ nav a:hover{
 #drop:hover #dropdown{
 	display: block;
 }
+
 .carousel-inner img{
 	height: 430px;
 }
@@ -160,4 +161,81 @@ footer .lists li h5{
 
 footer .lists li a{
 	color: #D4D4D4;
+}
+
+
+
+
+/*------------------OVERVIEW PAGE STYLES------------------*/
+
+.container_overview img{
+	width: 100%;
+}
+
+.container_overview h1{
+	margin: 15px 0;
+	color: #464646;
+	font-weight: bold;
+}
+
+.container_overview h3{
+	margin: 20px 0;
+	color: #F7003E;
+	font-weight: bold;
+}
+
+.container_overview p{
+	line-height: 15px;
+	font-size: 16px;
+}
+
+#long{
+	line-height: 20px;
+}
+
+hr{
+	border-bottom: 3px solid red;
+	margin: 35px 0;
+}
+
+#info{
+	color: #F7003E;
+	line-height: 30px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#info span{
+	color: #636463;
+}
+
+
+/*------------------EVENTS PAGE STYLES------------------*/
+
+.container_events .col-sm-4{
+	margin-bottom: 25px;
+}
+
+.container_events img, .container_events .row img{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.container_events h3, .container_events h4{
+	margin: 20px 0;
+	color: #F7003E;
+	font-weight: bold;
+	padding-bottom: 2px;
+}
+
+.container_events p{
+	font-weight: bold;
+	font-size: 18px;
+	color: 464646;
+}
+
+.container_events .row{
+	border-bottom-color: white;
 }
